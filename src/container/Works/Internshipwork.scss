@@ -1,0 +1,102 @@
+.app__iworks{
+    margin-top: 2rem;
+   flex-direction: column;
+   flex: 1;
+   width: 100%;
+   h1{
+    @media screen and (max-width: 900px) {
+      font-size: 30px;
+    }
+   }
+  
+}
+.app__iprojects{
+    display: flex; 
+    
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-top: 2rem;
+   justify-content: center;
+    
+
+}
+.app__iworks-component{
+     width: 250px;
+   
+   display: flex;
+   justify-content: flex-start;
+    flex-direction: column;
+    align-items:center  ;
+    margin: 2rem;
+  
+   @media screen and (max-width: 900px) {
+     margin: 0.6rem;
+   }
+   
+}
+.iproject-comps{
+    padding: 1rem 1rem;
+    background: var(--white-color);
+    border-radius: 15px;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1);
+    
+    background-color: beige; 
+    margin: 3rem ;
+   
+    h1{
+        margin-left: 3px;
+        align-self: flex-start;
+        font-size: 1rem;
+    }
+    .itag-icons{
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+    }
+   
+      
+    ion-icon {
+        
+        margin-right: 8px ;
+        margin-top: 8px ;
+       font-size: 25px;
+      
+    }
+   
+      
+   
+
+  span {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+
+    @media screen and (min-width: 2000px) {
+      font-size: 5rem;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    margin: 2rem;
+  }
+  @media screen and (max-width: 1200px) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  
+  }
+  .ibelow-icons{
+    position:absolute;
+      margin-top: 10rem;
+      align-self: flex-start;
+     ion-icon{
+       font-size: 30px;
+       cursor: pointer;
+       color: rgb(52, 112, 165);
+       &:hover{
+        color: black;
+       }
+     }
+  }
